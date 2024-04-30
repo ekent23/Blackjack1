@@ -23,10 +23,13 @@ public class BettingScreen extends World {
     
     public BettingScreen(int maxAmount) {
         super(1246, 700, 1);
-        
+        if (maxAmount <= 0) {
+            Greenfoot.setWorld(new WOMPWOMP());
+        }
         
         betDisplay = new Bet();
         max = new Max(maxAmount);
+        
         betDisplay.updateMax(max.getMax());
         addObject(betDisplay, 1040,224);
         addObject(max, 1066, 75);
@@ -39,6 +42,7 @@ public class BettingScreen extends World {
     }
 
     public void act() {
+        
         
         if (Greenfoot.mouseClicked(null)) {
             Actor clickedActor = Greenfoot.getMouseInfo().getActor();
