@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bet
+comment1.params=
+comment1.target=Bet()
+comment2.params=addedAmount
+comment2.target=void\ addAmount(int)
+comment3.params=newMax
+comment3.target=void\ updateMax(int)
+comment4.params=
+comment4.target=int\ getAmount()
+comment5.params=
+comment5.target=void\ update()
+numComments=6
