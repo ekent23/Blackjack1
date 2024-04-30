@@ -7,7 +7,6 @@ import greenfoot.*;
  */
 public class StartPage extends World 
 {
-    // instance variables - replace the example below with your own
  
 
     /**
@@ -25,7 +24,7 @@ public class StartPage extends World
             if (mouse != null) {
                 Actor clicked = mouse.getActor();
                 if (clicked instanceof PlayButton) {
-                    Greenfoot.setWorld(new BlackjackWorld());
+                    Greenfoot.setWorld(new BettingScreen());
                 }
                 
                 if (clicked instanceof RulesButton) {
