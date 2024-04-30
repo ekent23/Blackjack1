@@ -48,6 +48,9 @@ public class BlackjackWorld extends World {
     
                 
     public void act() {
+        if (max.getMax() <= 0) {
+            Greenfoot.setWorld(new WOMPWOMP());
+        }
         if (playerTurn) {
             
             if (Greenfoot.mouseClicked(null)) {
@@ -67,7 +70,9 @@ public class BlackjackWorld extends World {
                     Greenfoot.setWorld(new BettingScreen(max.getMax()));
                 }
                 
+                
             }
+            
         } else if (dealerTurn) {
             dealer.show();
             while (dealer.getWeight() < 17 && dealer.getWeight() != -1) {
@@ -99,10 +104,8 @@ public class BlackjackWorld extends World {
                     if (player.getWeight() > dealer.getWeight()){
                         max.updateMax(betDisplay.getAmount());
                     }else if ((dealer.getWeight() > player.getWeight())) {
-                        addObject(youLose, 115, 142);
                         max.updateMax(-1* betDisplay.getAmount());
                     }
-                    
                     Greenfoot.setWorld(new BettingScreen(max.getMax()));
                     deck = new Deck(1); 
                     player = new BlackjackHand("Jimmy");
