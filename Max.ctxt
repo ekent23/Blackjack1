@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Max
+comment1.params=
+comment1.target=Max()
+comment2.params=m
+comment2.target=Max(int)
+comment3.params=addedAmount
+comment3.target=void\ updateMax(int)
+comment4.params=
+comment4.target=int\ getMax()
+comment5.params=
+comment5.target=void\ update()
+numComments=6

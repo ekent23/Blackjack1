@@ -1,15 +1,15 @@
 import greenfoot.*;
 /**
- * Write a description of class StandButton here.
+ * Write a description of class NewGameButton here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class BackButton extends Actor
+public class NewGameButton  extends Actor
 {
     private boolean isPressed;
     
-    public BackButton()
+    public NewGameButton()
     {
         //GreenfootImage image = new GreenfootImage("Stand Button.png");
         //setLocation(60,100);
@@ -27,13 +27,7 @@ public class BackButton extends Actor
     public void act()
     { if(Greenfoot.mouseClicked(this)) {
         pressed();
-        
-         if (Greenfoot.mouseClicked(null)) {
-            MouseInfo mouse = Greenfoot.getMouseInfo();
-            if (mouse != null) {
-                Actor clicked = mouse.getActor();
-                if (clicked instanceof BackButton) {
-                    Greenfoot.setWorld(new StartPage());
-                }}}}}
 
     }
+    }
+}

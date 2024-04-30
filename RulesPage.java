@@ -18,7 +18,8 @@ public class RulesPage extends World
         super(1246, 710, 1);
         addObject(new BackButton(), 83, 49);//places rules button screen
     }
-        public void act()
+}
+      /*  public void act()
     {
         
         if (Greenfoot.mouseClicked(null)) {
@@ -27,4 +28,4 @@ public class RulesPage extends World
                 Actor clicked = mouse.getActor();
                 if (clicked instanceof BackButton) {
                     Greenfoot.setWorld(new StartPage());
-                }}}}}
+                }}}}}*/
