@@ -1,4 +1,5 @@
-import greenfoot.*;/**
+import greenfoot.*;
+/**
  * Write a description of class RulesPage here.
  * 
  * @author (your name) 
