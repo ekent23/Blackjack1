@@ -12,8 +12,8 @@ public class Flex extends Actor {
     
     public void setText(String text) {
         GreenfootImage image = getImage();
-        image.clear(); // Clear existing image
-        image.drawString(text, 0, 20); // Draw new text
+        image.clear(); 
+        image.drawString(text, 0, 20); 
     }
 }
 

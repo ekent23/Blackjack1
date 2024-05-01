@@ -9,7 +9,7 @@ import greenfoot.*;
  */
 public class HitButton  extends Actor
 {
-    // instance variables - replace the example below with your own
+    
     public boolean isPressed;
     
     public HitButton()

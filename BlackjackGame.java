@@ -11,7 +11,7 @@ public class BlackjackGame extends CardGame
     private BlackjackHand[] hands;
     private BlackjackHand dealer;
     private int numberOfHands;
-    private int numberOfDecks; // Added field for storing numberOfDecks
+    private int numberOfDecks; 
     
     public BlackjackGame(int numberOfDecks, int maxNumberOfHands)
     {

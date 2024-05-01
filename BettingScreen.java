@@ -1,7 +1,7 @@
 import greenfoot.*;
 
 public class BettingScreen extends World {
-    private Bet betDisplay; // Reference to the bet display
+    private Bet betDisplay; 
     private Max max; 
 
     public BettingScreen() {

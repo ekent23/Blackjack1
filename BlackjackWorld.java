@@ -12,15 +12,13 @@ public class BlackjackWorld extends World {
     private YouLose youLose;
     private Max max;
     private SurrenderButton surrenderButton;
-    private Bet betDisplay; // Reference to the bet display
+    private Bet betDisplay; 
 
-    public BlackjackWorld(Bet betDisplay, Max max) { // Constructor accepting Bet object as a parameter
-        super(1246, 700, 1);
-        this.betDisplay = betDisplay; // Assign the provided bet display object
+    public BlackjackWorld(Bet betDisplay, Max max) { super(1246, 700, 1);
+        this.betDisplay = betDisplay; 
         this.max= max;
         
 
-        // Initialize other variables and add objects
         deck = new Deck(1); 
         player = new BlackjackHand("Jimmy");
         dealer = new BlackjackHand("Tony Allen");

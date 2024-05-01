@@ -7,15 +7,15 @@ public class Bet extends Actor {
     public Bet() {
         Maxamount = 500;
         amount = 0;
-        update(); // Call update method to initialize the image
+        update(); 
     }
 
     public void addAmount(int addedAmount) {
-        amount += addedAmount; // Add the specified amount to the current amount
+        amount += addedAmount;
         if (amount > Maxamount){
             amount = Maxamount;
         }
-        update(); // Update the displayed amount
+        update(); 
     }
     public void updateMax(int newMax){
         Maxamount = newMax;
