@@ -8,7 +8,6 @@ import greenfoot.*;
 public class RulesPage extends World 
 
 {
-    // instance variables - replace the example below with your own
   
 
     /**
@@ -17,7 +16,7 @@ public class RulesPage extends World
     public RulesPage()
     {
         super(1246, 710, 1);
-        addObject(new BackButton(), 83, 49);//places rules button screen
+        addObject(new BackButton(), 83, 49);
     }
 }
       /*  public void act()

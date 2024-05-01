@@ -14,8 +14,8 @@ public class StartPage extends World
      */
     public StartPage()
     { super(1246, 700, 1);
-        addObject(new PlayButton(), 594, 374); //places play button screen
-        addObject(new RulesButton(), 612, 499);//places rules button screen
+        addObject(new PlayButton(), 594, 374); 
+        addObject(new RulesButton(), 612, 499);
     }
         public void act()
     {

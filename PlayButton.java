@@ -7,7 +7,7 @@ import greenfoot.*;
  */
 public class PlayButton  extends Actor
 {
-    // instance variables - replace the example below with your own
+  
     public boolean isPressed;
     
     public PlayButton()

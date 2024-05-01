@@ -7,7 +7,7 @@ import greenfoot.*;
  */
 public class YouLose  extends Actor
 {
-    // instance variables - replace the example below with your own
+    
     
 
     /**

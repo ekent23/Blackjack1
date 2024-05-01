@@ -4,17 +4,17 @@ public class Max extends Actor {
     private int Maxamount;
     public Max() {
         Maxamount = 500;
-        update(); // Call update method to initialize the image
+        update(); 
     }
     
     public Max(int m) {
         Maxamount = m;
-        update(); // Call update method to initialize the image
+        update(); 
     }
 
     public void updateMax(int addedAmount) {
         Maxamount += addedAmount;
-        update(); // Update the displayed amount
+        update(); 
     }
     public int getMax(){
         return Maxamount;

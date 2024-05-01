@@ -8,7 +8,7 @@ import greenfoot.*;
    */
 public class WOMPWOMP  extends World
 {
-    // instance variables - replace the example below with your own
+   
    
 
     /**
